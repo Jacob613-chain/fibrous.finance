@@ -1,0 +1,29 @@
+{
+  "name": "fibrous-finance",
+  "version": "1.0.0",
+  "description": "Fibrous Finance - Smart DEX Aggregator",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve -s . -p 3000",
+    "start": "serve -s . -p 3000",
+    "build": "echo 'Static site - no build needed'",
+    "export": "echo 'Already exported'"
+  },
+  "keywords": [
+    "defi",
+    "dex",
+    "aggregator",
+    "swap",
+    "blockchain",
+    "ethereum",
+    "starknet"
+  ],
+  "author": "Fibrous Finance Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
